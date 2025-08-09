@@ -1,0 +1,1 @@
+Dart is a more of C type programming language.
