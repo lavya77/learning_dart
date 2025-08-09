@@ -1,1 +1,86 @@
-Dart is a more of C type programming language.
+🏹 Learning Dart from Scratch
+
+Welcome to my Dart Learning Repository!
+This is where I document my journey of exploring Dart — from basics to building real-world applications.
+
+────────────────────────────────────────────
+📖 What is Dart?
+
+Dart is a modern, open-source programming language developed by Google.
+It is optimized for:
+- Cross-platform development (web, mobile, desktop, and server)
+- High performance
+- Strong typing with null safety
+- Productivity with fast development cycles
+
+Dart is the language used to build Flutter apps but can also be used for:
+- Command-line scripts
+- Web applications
+- Backend services
+
+Key Features:
+- Object-oriented
+- Null safety
+- Ahead-of-time (AOT) and Just-in-time (JIT) compilation
+- Strong package ecosystem via pub.dev
+
+────────────────────────────────────────────
+⚙️ Installation Guide
+
+1. Linux
+   Arch Linux:
+       sudo pacman -S dart
+
+   Debian/Ubuntu:
+       sudo apt update
+       sudo apt install apt-transport-https
+       sudo sh -c 'wget -qO- https://dl-ssl.google.com/linux/linux_signing_key.pub | gpg --dearmor > /usr/share/keyrings/dart.gpg'
+       sudo sh -c 'wget -qO- https://storage.googleapis.com/download.dartlang.org/linux/debian/dart_stable.list > /etc/apt/sources.list.d/dart_stable.list'
+       sudo apt update
+       sudo apt install dart
+
+   Fedora:
+       sudo dnf install dart
+
+2. macOS
+   Using Homebrew:
+       brew tap dart-lang/dart
+       brew install dart
+
+3. Windows
+   Using Chocolatey:
+       choco install dart-sdk
+
+   Using Scoop:
+       scoop install dart
+
+   Or download manually from https://dart.dev/get-dart
+
+────────────────────────────────────────────
+🧪 Verify Installation
+    dart --version
+
+If installed correctly, you'll see something like:
+    Dart SDK version: 3.x.x (stable)
+
+────────────────────────────────────────────
+🚀 Running a Dart File
+
+1. Create a file:
+       nano hello.dart
+
+2. Add:
+       void main() {
+         print('Hello, Dart!');
+       }
+
+3. Run:
+       dart hello.dart
+
+────────────────────────────────────────────
+📌 Resources
+- Dart Official Website: https://dart.dev
+- Dart Language Tour: https://dart.dev/guides/language/language-tour
+- Dart Packages: https://pub.dev
+
+💡 This repo will grow as I learn and experiment with Dart.g
